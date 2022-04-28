@@ -20,6 +20,7 @@ class PhotosCollectionViewController: UICollectionViewController {
         super.viewDidLoad()
         
 //        // 2-ый способ настройки Layout Flow через код
+        
 //        let layout = collectionView.collectionViewLayout as! UICollectionViewFlowLayout
 //        layout.itemSize = CGSize(width: 70, height: 70) // определение размеров ячеек
 //        layout.sectionInset = UIEdgeInsets(top: 20, left: 20, bottom: 20, right: 20) // создает отступы от границ экрана
