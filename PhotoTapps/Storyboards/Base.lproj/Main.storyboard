@@ -29,7 +29,21 @@
                                 <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="nqC-fO-ep3">
                                     <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
                                     <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="5MW-yv-aID">
+                                            <rect key="frame" x="0.0" y="0.0" width="128" height="136"/>
+                                        </imageView>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstAttribute="trailing" secondItem="5MW-yv-aID" secondAttribute="trailing" id="B7F-pR-FPr"/>
+                                        <constraint firstAttribute="bottom" secondItem="5MW-yv-aID" secondAttribute="bottom" constant="-8" id="SsF-LY-pGk"/>
+                                        <constraint firstItem="5MW-yv-aID" firstAttribute="leading" secondItem="nqC-fO-ep3" secondAttribute="leading" id="Zx8-Nz-gCU"/>
+                                        <constraint firstItem="5MW-yv-aID" firstAttribute="top" secondItem="nqC-fO-ep3" secondAttribute="top" id="pmi-c0-Oh9"/>
+                                    </constraints>
                                 </collectionViewCellContentView>
+                                <connections>
+                                    <outlet property="dogImageView" destination="5MW-yv-aID" id="jhJ-fJ-pSW"/>
+                                </connections>
                             </collectionViewCell>
                         </cells>
                         <connections>
@@ -41,7 +55,7 @@
                 </collectionViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Qcl-D9-NtP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="455" y="130"/>
+            <point key="canvasLocation" x="453.62318840579712" y="129.91071428571428"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="gPr-rC-hXA">
