@@ -13,6 +13,7 @@
 		D465CC672819989000D07E25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D465CC662819989000D07E25 /* Assets.xcassets */; };
 		D465CC6A2819989000D07E25 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D465CC682819989000D07E25 /* LaunchScreen.storyboard */; };
 		D465CC72281999EA00D07E25 /* PhotosCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D465CC71281999EA00D07E25 /* PhotosCollectionViewController.swift */; };
+		D48623DA281A8437006897EF /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48623D9281A8437006897EF /* PhotoCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		D465CC692819989000D07E25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D465CC6B2819989000D07E25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D465CC71281999EA00D07E25 /* PhotosCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosCollectionViewController.swift; sourceTree = "<group>"; };
+		D48623D9281A8437006897EF /* PhotoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 			isa = PBXGroup;
 			children = (
 				D465CC71281999EA00D07E25 /* PhotosCollectionViewController.swift */,
+				D48623D9281A8437006897EF /* PhotoCell.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -170,6 +173,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D48623DA281A8437006897EF /* PhotoCell.swift in Sources */,
 				D465CC5E2819988E00D07E25 /* AppDelegate.swift in Sources */,
 				D465CC602819988E00D07E25 /* SceneDelegate.swift in Sources */,
 				D465CC72281999EA00D07E25 /* PhotosCollectionViewController.swift in Sources */,
