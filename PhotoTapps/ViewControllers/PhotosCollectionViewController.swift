@@ -15,7 +15,6 @@ class PhotosCollectionViewController: UICollectionViewController {
     let itemsPerRow: CGFloat = 2 // определяет количество ячеек на одном ряду
     let sectionInserts = UIEdgeInsets(top: 20, left: 20, bottom: 20, right: 20) // Метод создает отступы от границ экрана
     
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         

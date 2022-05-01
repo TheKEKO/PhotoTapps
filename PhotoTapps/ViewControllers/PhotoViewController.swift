@@ -18,7 +18,6 @@ class PhotoViewController: UIViewController {
         photoImageView.image = image
     }
     
-
     // Для сохранения фотографий нужно в info создать новый ключ Privacy - Photo Library Additions Usage Description
     // Объявляем класс для того что бы создать панель share
     @IBAction func shareAction(_ sender: Any) {
