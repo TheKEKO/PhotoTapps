@@ -58,7 +58,7 @@
                 </collectionViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Qcl-D9-NtP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="453.62318840579712" y="129.91071428571428"/>
+            <point key="canvasLocation" x="478" y="129"/>
         </scene>
         <!--Photo View Controller-->
         <scene sceneID="IN3-4X-MTV">
