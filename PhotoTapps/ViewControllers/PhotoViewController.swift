@@ -8,7 +8,6 @@
 import UIKit
 
 class PhotoViewController: UIViewController {
-    
     var image: UIImage?
     
     @IBOutlet weak var photoImageView: UIImageView!
